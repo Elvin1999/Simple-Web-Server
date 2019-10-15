@@ -88,7 +88,6 @@ namespace WB.Server
                     stringBuilder.Append("</body></html>");
                     response.ContentType = "text/html";
                     response.StatusCode = 200;
-
                     streamWriter.Write(stringBuilder);
                 }
                 else
